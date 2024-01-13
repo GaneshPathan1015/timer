@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+#settimer{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#tform{
+    background-color: rgb(73, 72, 72);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+#tform>h5{
+    font-size: 1.5rem;
+}
+#tform>input {
+    background-color: rgb(73, 72, 72);
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 5px;
+}
+form button{
+    color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    width: fit-content;
+    background-color: rgb(241, 197, 54);
+}
+#Curenttimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#Curenttimer>div{
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px;
+    padding: 2px 20px 2px 20px;
+}
+#Timers{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.taskdiv{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(73, 72, 72);
+    border-radius: 20px;
+    padding: 10px;
+    
+    transition: opacity 0.5s, height 0.5s, padding 0.5s;
+}
+.taskdiv>form>input{
+    width: fit-content;
+    background-color: rgb(73, 72, 72);
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    width: 150px;
+    
+}
